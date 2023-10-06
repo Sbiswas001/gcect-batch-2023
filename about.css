@@ -1,12 +1,27 @@
 /* Reset some default styles */
-body, h1, h2, p, ul, li {
+body,
+h1,
+h2,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
 
+header h1 {
+    font-size: 70px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
 /* Set a background color and text color for the entire page */
 body {
-    background-color: #333;
+    background-color: #301934;
     color: whitesmoke;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -17,6 +32,7 @@ h1 {
     font-size: 36px;
     text-align: center;
     margin-top: 20px;
+
 }
 
 /* Style horizontal rules */

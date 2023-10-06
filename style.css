@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    background-color: rgb(179, 49, 231);
+    margin: 0;
+    padding: 3vh;
+    
+}
+
+.dash{
+    display: inline-flex;
+    display: flex;
+    padding-bottom: 1vh;
+
+}
+
+h1 .dash ul{
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.dash ul li::after{
+    
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: #ff6200;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+
+
+.dash ul li:hover::after{
+        width: 100%;
+}
+
+h1 .dash ul li a{
+    list-style-type: none;
+    margin: 0vh 2vh 0vh 2vh;
+    text-decoration: none;
+    color: white;
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+
+}
+

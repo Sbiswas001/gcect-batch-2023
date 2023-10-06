@@ -1,0 +1,116 @@
+body{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(218, 222, 240, 0.7),rgba(200, 202, 215, 0.7)), url(img/contact-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.cta1{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/discord-blogroll-1655488022938.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.cta2{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/brand.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.cta3{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/whatsapp.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.cta3 h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 40px;
+}
+.cta4{
+    margin: 100px auto;
+    width: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/contact-telegram.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.cta4 h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 40px;
+}
+.cta1 h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 40px;
+}
+.cta2 h1{
+    color: aliceblue;
+    margin-bottom: 40px;
+    padding: 0;
+    font-size: 40px;
+}
+.hero-btn{
+    margin-top: 35px;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+.hero-btn:hover{
+    border: 1px solid #ff8800;
+    background: #ff7700;
+    transition: 1s;
+}
+
+@media(max-width: 700px){
+    .cta1 h1{
+        font-size: 24px;
+    }
+    .cta2 h1{
+        font-size: 24px;
+    }
+    .cta3 h1{
+        font-size: 24px;
+    } 
+    .hero-btn{
+        padding: 22px;
+        font-size: 19px;
+    }
+    body{
+        min-height: 100vh;
+        width: 100%;
+        background-image: linear-gradient(rgba(208, 215, 251, 0.865),rgba(202, 205, 219, 0.7)), url('img/contact-phone-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+}

@@ -37,14 +37,17 @@ header h1 {
   background-clip: text;    
   background-size: 200%;
   background-position: -200%;
-  animation: animated-gradient 2s infinite alternate-reverse;      
+  animation: animated-gradient 2s;
+  transition: all ease-in-out 2s;      
 }
 @keyframes animated-gradient{
   to{
     background-position: 200%;
   }
 }
-
+header h1:hover{
+    background-position: 200%;
+  }
 
 
 header h1 {
@@ -59,7 +62,8 @@ header h1 {
 
 /* Set a background color and text color for the entire page */
 body {
-    background-color: #252c7d;
+    
+    background-image: url("img/zeroone.png");
     color: whitesmoke;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -84,7 +88,7 @@ hr {
 article {
     margin: 20px 0;
     padding: 20px;
-    background-color: #333;
+    background-image: url("img/background.png");
     border: 1px solid #ccc;
     border-radius: 5px;
 }

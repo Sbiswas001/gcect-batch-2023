@@ -29,7 +29,7 @@ h1 .dash ul{
         content: '';
         width: 0%;
         height: 2px;
-        background: #ff6200;
+        background: #f7f710;
         display: block;
         margin: auto;
         transition: 0.5s;

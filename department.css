@@ -19,7 +19,6 @@ a {
     min-width: 400px;
     width: 100%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-
 }
 
 .styled-table td {
@@ -36,7 +35,7 @@ a {
     background-color: rgb(56, 59, 62);
     color: #ffffff;
     text-align: left;
-
+    border: #dddddd;
 }
 
 .styled-table th,
@@ -47,15 +46,10 @@ a {
 
 .styled-table tbody tr {
     border-bottom: 1px solid #dddddd;
-
 }
 
 .styled-table tbody tr:nth-of-type(even) {
     background-color: rgb(67, 67, 67);
-}
-
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #009879;
 }
 
 .styled-table tbody tr.active-row {
@@ -67,7 +61,6 @@ a {
     overflow-x: auto;
 }
 
-/* Make the table cells stack on small screens */
 @media screen and (max-width: 600px) {
 
     .styled-table th,

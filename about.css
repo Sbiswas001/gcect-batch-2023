@@ -1,0 +1,86 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color for the entire page */
+body {
+    background-color: #333;
+    color: whitesmoke;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Style the header section */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style horizontal rules */
+hr {
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+/* Style the article section */
+article {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style headings in the article section */
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style the italicized text in the article section */
+em {
+    font-style: italic;
+}
+
+/* Style the unordered list in the article section */
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Style list items in the article section */
+li {
+    margin-bottom: 10px;
+}
+
+/* Style links in the article section */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Style links on hover in the article section */
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style the contact information section */
+h2 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Style the links in the contact information section */
+p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* Style links on hover in the contact information section */
+p a:hover {
+    text-decoration: underline;
+}

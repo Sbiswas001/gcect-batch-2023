@@ -32,7 +32,7 @@ header h1 {
   font-size: 60px;
   font-weight: 600;
   color: transparent;
-  background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+  background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #5eb53b);
   -webkit-background-clip: text;
   background-clip: text;    
   background-size: 200%;
@@ -40,6 +40,7 @@ header h1 {
   animation: animated-gradient 2s;
   transition: all ease-in-out 2s;      
 }
+
 @keyframes animated-gradient{
   to{
     background-position: 200%;
@@ -48,17 +49,6 @@ header h1 {
 header h1:hover{
     background-position: 200%;
   }
-
-
-header h1 {
-    font-size: 70px;
-    font-weight: 600;
-    background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
 
 /* Set a background color and text color for the entire page */
 body {

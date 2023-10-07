@@ -7,14 +7,14 @@
 
 /* Set a background color for the whole page */
 body {
-    background-image: url(img/blueback.png);
+    background-image: url(img/devback.png);
     font-family: Arial, sans-serif;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: white;
 }
-
+ 
 a {
     color: white;
 }
@@ -62,56 +62,44 @@ h1 {
 
 }
 
-/* Style the section containing developer profiles */
-section {
-    padding: 10px;
-    margin: 20px;
-    display: contents;
-    flex-wrap: wrap;
-    justify-content: space-around;
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Style the table header (optional) */
+table th {
     
-}
-
-/* Style individual developer profiles */
-.profile {
-    width: calc(33.33% - 20px);
-    /* Three profiles per row */
-    background-color: #fff;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-/* Style the images inside profiles */
-.profile img {
-    max-width: 100%;
-    border-radius: 50%;
-}
-
-/* Style the hr and p elements inside profiles */
-.profile hr {
-    margin: 10px 0;
-    border-color: #ccc;
-}
-
-.profile p {
-    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
     text-align: center;
 }
 
-/* Apply some spacing to the table rows for separation */
-table tr {
-    margin-bottom: 20px;
-
-}
-
-/* Style the table cells */
+/* Style the table rows */
 table td {
-    padding: 20px;
-    text-align: center;
-    background-color: rgba(128, 128, 128, .5);
-    margin: 10px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style alternating rows for better readability */
+
+
+/* Style the table header cell for images (optional) */
+table td:first-child {
+    width: 100px; /* Adjust the width as needed */
+}
+
+/* Style the text in the table */
+table td:last-child {
+    padding-left: 20px;
+}
+
+/* Style the images in the table */
+table img {
+    max-width: 100px;
+    max-height: 100px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
 }
 
 /* Media query for screens smaller than 768px */

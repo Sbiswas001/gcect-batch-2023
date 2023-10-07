@@ -1,4 +1,3 @@
-// Define an array of objects for your entries
 const entries = [
     {
         name: "Sayan Biswas",
@@ -14,12 +13,10 @@ const entries = [
         instagram: "https://www.instagram.com/sbiswas001",
         website: "https://sbiswas001.weebly.com/",
     },
-    // Add more entries here
 ];
 
 const tbody = document.getElementById("table-body");
 
-// Iterate through the entries and create table rows dynamically
 entries.forEach((entry) => {
     const row = document.createElement("tr");
     const nameCell = document.createElement("td");

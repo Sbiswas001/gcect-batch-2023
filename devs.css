@@ -1,0 +1,127 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color for the whole page */
+body {
+    background-image: url(img/blueback.png);
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+/* Style the header */
+header {
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+header h1 {
+    position: absolute;
+    width: 90%;
+    font-size: 60px;
+    font-weight: 600;
+    color: transparent;
+    background-image: linear-gradient(to right, #553c9a, #ee4b2b, #00c2cb, #ff7f50, #5eb53b);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200%;
+    background-position: -200%;
+    animation: animated-gradient 1.5s;
+    transition: all ease-in-out 2s;
+}
+
+@keyframes animated-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
+header h1:hover {
+    background-position: 200%;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+/* Style the section containing developer profiles */
+section {
+    padding: 10px;
+    margin: 20px;
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+/* Style individual developer profiles */
+.profile {
+    width: calc(33.33% - 20px);
+    /* Three profiles per row */
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the images inside profiles */
+.profile img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* Style the hr and p elements inside profiles */
+.profile hr {
+    margin: 10px 0;
+    border-color: #ccc;
+}
+
+.profile p {
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Apply some spacing to the table rows for separation */
+table tr {
+    margin-bottom: 20px;
+
+}
+
+/* Style the table cells */
+table td {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, .5);
+    margin: 10px; 
+}
+
+/* Media query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    .profile {
+        width: calc(50% - 20px);
+        /* Two profiles per row */
+    }
+}
+
+/* Media query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+    .profile {
+        width: 100%;
+        /* One profile per row */
+    }
+}

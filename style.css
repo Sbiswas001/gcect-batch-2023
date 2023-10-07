@@ -14,7 +14,7 @@ h1{
 .dash{
     display: inline-flex;
     display: flex;
-    padding-bottom: 1vh;
+    padding-bottom: 2vh;
 
 }
 
@@ -50,4 +50,3 @@ h1 .dash ul li a{
     font-family: 'Poppins', sans-serif;
 
 }
-

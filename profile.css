@@ -5,6 +5,9 @@
     padding-top: 100px;
 
 }
+a {
+    color: white;
+}
 h1 {
     font-size: 9vh;
     font-weight: 600;
@@ -91,3 +94,34 @@ body {
 
     }
 }
+
+#back-to-top-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #007bff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+#back-to-top-button::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80%;
+    background-image: url('img/uparrowblue.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+

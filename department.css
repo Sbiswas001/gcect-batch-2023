@@ -1,9 +1,20 @@
 body {
-
-    background-image: url("img/dark2.png");
     color: whitesmoke;
     font-family: Arial, sans-serif;
     padding: 20px;
+    background-size: cover;
+}
+
+.cse {
+    background-image: url(img/csedark.png);
+}
+
+.it {
+    background-image: url("img/itdark.png");
+}
+
+.ct {
+    background-image: url("img/ceramicdark.png");
 }
 
 a {

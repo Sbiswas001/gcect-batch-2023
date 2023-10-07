@@ -23,7 +23,7 @@ p {
 .profile-col {
     flex-basis: 32%;
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     position: relative;
     overflow: hidden;
 }
@@ -64,7 +64,7 @@ p {
 body {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(3, 6, 21, 0.7), rgba(3, 6, 21, 0.7)), url('img/profilebgpc.jpg');
+    background-image: linear-gradient(rgba(3, 6, 21, 0.7), rgba(3, 6, 21, 0.7)), url('img/darkcool.png');
     background-size: cover;
     background-position: center;
     position: relative;

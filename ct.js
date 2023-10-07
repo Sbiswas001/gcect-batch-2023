@@ -1,25 +1,22 @@
-// Define an array of objects for your entries
 const entries = [
     {
-        name: "Sayan Biswas",
-        github: "https://github.com/Sbiswas001",
-        linkedin: "https://www.linkedin.com/in/sbiswas001",
-        instagram: "https://www.instagram.com/sbiswas001",
-        website: "https://sbiswas001.weebly.com/",
+        name: "Subhankar Roy",
+        instagram: "https://www.instagram.com/subhankar6273/",
     },
     {
-        name: "Bidwattar Kar",
-        github: "https://github.com/Sbiswas001",
-        linkedin: "https://www.linkedin.com/in/sbiswas001",
-        instagram: "https://www.instagram.com/sbiswas001",
-        website: "https://sbiswas001.weebly.com/",
+        name: "Saiba Khatun",
+        instagram: "https://instagram.com/iam__roshnii__?igshid=OGQ5ZDc2ODk2ZA==",
+        linkedin: "https://www.linkedin.com/in/saiba-khatun-761359295/",
     },
-    // Add more entries here
+    {
+        name: "Akash Dutta",
+        facebook: "https://www.facebook.com/profile.php?id=100080718425398",
+        linkedin: "https://www.linkedin.com/in/akash-dutta-a6867028b/",
+    }
 ];
 
 const tbody = document.getElementById("table-body");
 
-// Iterate through the entries and create table rows dynamically
 entries.forEach((entry) => {
     const row = document.createElement("tr");
     const nameCell = document.createElement("td");
@@ -28,9 +25,25 @@ entries.forEach((entry) => {
     const websiteCell = document.createElement("td");
 
     nameCell.textContent = entry.name;
-    githubCell.innerHTML = `<a href="${entry.github}">Github</a>`;
-    socialCell.innerHTML = `<a href="${entry.linkedin}">Linkedin</a><br><a href="${entry.instagram}">Instagram</a>`;
-    websiteCell.innerHTML = `<a href="${entry.website}">Website</a>`;
+    githubCell.innerHTML = entry.github ? `<a href="${entry.github}">Github</a>` : 'N/A';
+    socialCell.innerHTML = '';
+    
+    if (entry.linkedin) {
+        socialCell.innerHTML += `<a href="${entry.linkedin}">Linkedin</a><br>`;
+    }
+    if (entry.instagram) {
+        socialCell.innerHTML += `<a href="${entry.instagram}">Instagram</a>`;
+    }
+    if (entry.facebook) {
+        socialCell.innerHTML += `<a href="${entry.facebook}">Facebook</a>`;
+    }
+    if(!entry.linkedin && !entry.instagram && !entry.facebook) {
+        socialCell.innerHTML = 'N/A';
+    }
+
+    websiteCell.innerHTML = entry.website ? `<a href="${entry.website}">Website</a>` : 'N/A';
+
+
 
     row.appendChild(nameCell);
     row.appendChild(githubCell);

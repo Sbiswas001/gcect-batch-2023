@@ -1,25 +1,40 @@
-// Define an array of objects for your entries
 const entries = [
     {
-        name: "Sayan Biswas",
-        github: "https://github.com/Sbiswas001",
-        linkedin: "https://www.linkedin.com/in/sbiswas001",
-        instagram: "https://www.instagram.com/sbiswas001",
-        website: "https://sbiswas001.weebly.com/",
+        name: "Amlan Patra",
     },
     {
-        name: "Bidwattar Kar",
-        github: "https://github.com/Sbiswas001",
-        linkedin: "https://www.linkedin.com/in/sbiswas001",
-        instagram: "https://www.instagram.com/sbiswas001",
-        website: "https://sbiswas001.weebly.com/",
+        name: "SOURIN KAR",
     },
-    // Add more entries here
+    {
+        name: "Agnik Manna",
+    },
+    {
+        name: "Monika Mandal",
+        instagram: "https://www.instagram.com/mandalmonika_14/"
+    },
+    {
+        name: "Soham Ghosh",
+        facebook: "https://www.facebook.com/soham.ghosh.568089",
+        linkedin: "https://www.linkedin.com/in/soham-ghosh-5399a7239",
+
+    },
+    {
+        name: "Rupankar Saha",
+        facebook: "https://www.facebook.com/rupankar.saha.397?mibextid=ZbWKwL",
+    },
+    {
+        name: "Ipsita Majumder",
+        instagram: "https://instagram.com/ips16majumder?igshid=OGQ5ZDc2ODk2ZA==",
+        linkedin: "https://www.linkedin.com/in/ipsita-majumder-567b66293?trk=contact-info",
+    },
+    {
+        name: "Ananya Mondal",
+    },
+
 ];
 
 const tbody = document.getElementById("table-body");
 
-// Iterate through the entries and create table rows dynamically
 entries.forEach((entry) => {
     const row = document.createElement("tr");
     const nameCell = document.createElement("td");
@@ -28,9 +43,25 @@ entries.forEach((entry) => {
     const websiteCell = document.createElement("td");
 
     nameCell.textContent = entry.name;
-    githubCell.innerHTML = `<a href="${entry.github}">Github</a>`;
-    socialCell.innerHTML = `<a href="${entry.linkedin}">Linkedin</a><br><a href="${entry.instagram}">Instagram</a>`;
-    websiteCell.innerHTML = `<a href="${entry.website}">Website</a>`;
+    githubCell.innerHTML = entry.github ? `<a href="${entry.github}">Github</a>` : 'N/A';
+    socialCell.innerHTML = '';
+    
+    if (entry.linkedin) {
+        socialCell.innerHTML += `<a href="${entry.linkedin}">Linkedin</a><br>`;
+    }
+    if (entry.instagram) {
+        socialCell.innerHTML += `<a href="${entry.instagram}">Instagram</a>`;
+    }
+    if (entry.facebook) {
+        socialCell.innerHTML += `<a href="${entry.facebook}">Facebook</a>`;
+    }
+    if(!entry.linkedin && !entry.instagram && !entry.facebook) {
+        socialCell.innerHTML = 'N/A';
+    }
+
+    websiteCell.innerHTML = entry.website ? `<a href="${entry.website}">Website</a>` : 'N/A';
+
+
 
     row.appendChild(nameCell);
     row.appendChild(githubCell);

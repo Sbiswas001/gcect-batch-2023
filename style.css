@@ -3,18 +3,22 @@
     padding: 0;
 }
 
+body {
+    background-image: url(/img/indexback2.png);
+    color: whitesmoke;
+}
 
 h1{
-    background-color: rgb(179, 49, 231);
+    background-image: url(img/indexback1.png);
     margin: 0;
-    padding: 3vh;
+    padding: 1vh;
     
 }
 
 .dash{
     display: inline-flex;
     display: flex;
-    padding-bottom: 2vh;
+    padding-bottom: 1vh;
 
 }
 
@@ -34,7 +38,6 @@ h1 .dash ul{
         margin: auto;
         transition: 0.5s;
     }
-    
 
 
 .dash ul li:hover::after{
@@ -50,3 +53,44 @@ h1 .dash ul li a{
     font-family: 'Poppins', sans-serif;
 
 }
+
+/* Apply styles to the section element */
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+  }
+  
+  /* Apply styles to the heading elements */
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Apply styles to the unordered lists */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Apply styles to list items */
+  li {
+    padding: 5px;
+  }
+  
+  /* Specific styling for the "Study Materials" section */
+  section h3:contains("Study Materials") {
+    background-color: #e0e0e0;
+  }
+  
+  /* Specific styling for the "Upcoming Events" section */
+  section h3:contains("Upcoming Events") {
+    background-color: #c0c0c0;
+  }
+  
+  /* Specific styling for the "Newsletter" section */
+  section h3:contains("Newsletter") {
+    background-color: #f0f0f0;
+  }
+  

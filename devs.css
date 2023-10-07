@@ -15,6 +15,10 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+}
+
 /* Style the header */
 header {
     width: 100%;

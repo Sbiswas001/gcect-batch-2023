@@ -20,6 +20,10 @@ body {
     background-color: #fdfdfe;
 }
 
+a {
+    color: white;
+}
+
 header {
     width: 100%;
     height: 9vh;

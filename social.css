@@ -8,6 +8,10 @@ body{
     background-attachment: fixed;
 }
 
+a {
+    color: white;
+}
+
 .cta1{
     margin: 100px auto;
     width: 90%;

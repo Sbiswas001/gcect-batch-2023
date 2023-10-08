@@ -4,31 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="devs.css">
     <title>Developers</title>
+    <link rel="shortcut icon" href="img/logo.jpg.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="devs.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 </head>
 
+
 <body>
-    <a href="index.html">Back to Home</a>
     <header>
-        <h1>Meet the Developers</h1>
+        <h1>Developers</h1>
     </header>
-    <section class="profile">
-        <table>
-            <thead>
-                <tr>
-                    <th>Developers</th>
-                    <th>About Them</th>
-                </tr>
-            </thead>
-            <section class="profile">
-                <tbody id="table-body"></tbody>
-                <script src="devs.js"></script>
-            </section>
-            
-        </table>
-    </section>
+    <div class="container">
+        <div class="image-container">
+            <img src="img/bk.jpg" alt="Image description">
+        </div>
+        <div class="description">
+            <h1>Bidwattar Kar here</h1>
+            <div class="container2">
+                <span class="text first-text">I'm a</span>
+                <span class="text sec-text">Student</span>
+            </div>
+            <p>Creating the comprehensive "GCECT Batch of 2023" website from the ground up was an amazing experience, our team did a great job ensuring seamless functionality, looking forward towards more projects like this.</p>
+            <script>
+                const text = document.querySelector(".sec-text");
+        
+                const textLoad = () => {
+                    setTimeout(() => {
+                        text.textContent = "Student";
+                    }, 0);
+                    setTimeout(() => {
+                        text.textContent = "Programmer";
+                    }, 4000);
+                    setTimeout(() => {
+                        text.textContent = "Photographer";
+                    }, 8000); 
+                    
+                    //1s = 1000 milliseconds
+                }
+        
+                textLoad();
+                setInterval(textLoad, 12000);
+            </script>
+        </div>
+        
+
+    </div>
+
+    <!-- insert the typing effect with your preferable texts. Beware of the class names -->
     
+    <div class="container">
+        <div class="image-container">
+            <img src="img/saya.jpg" alt="Image description">
+        </div>
+        <div class="description">
+            <h1>I'm Sayan Biswas</h1>
+            <div class="container3">
+                <span class="text2 first-text">I'm a</span>
+                <span class="text2 sec-text">Student</span>
+            </div>
+            <p>its fun and exciting to make my own website from scratch</p>
+           
+        </div>
+        
+
+    </div>
+
+
 </body>
 
 </html>
+
+
+
+

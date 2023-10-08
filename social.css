@@ -118,3 +118,23 @@ a {
         position: relative;
     }
 }
+
+.buttons .button{
+    padding: 6px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(71, 71, 207);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+.buttons .button:hover{
+    background-color: white;
+    color: rgb(71, 71, 207);
+}
+
+.buttons .button a{
+    text-decoration: none;
+}

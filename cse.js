@@ -33,6 +33,40 @@ const entries = [
         name: "Riya Choudhury",
         instagram: "https://www.instagram.com/__choudhuryriya__",
     },
+    {
+        name: "Koustav Naskar",
+        instagram: "https://instagram.com/koustav.naskar.3194?igshid=OGQ5ZDc2ODk2ZA==",
+    },
+    {
+        name: "Arghya Saha",
+        instagram: "https://instagram.com/010arghya?igshid=MzMyNGUyNmU2YQ==",
+    },
+    {
+        name: "Wangmi Lama",
+    },
+    {
+        name: "Sneha Mandal",
+        instagram: "https://instagram.com/snehamandal0001?igshid=OGQ5ZDc2ODk2ZA==",
+        linkedin: "https://www.linkedin.com/in/sneha-mandal-a7581228b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+        name: "Subhadip Biswas",
+        instagram: "https://www.instagram.com/subhadip_2004/",
+        linkedin: "www.linkedin.com/in/subhadip-biswas-7824a2283",
+    },
+    {
+        name: "Debrup Das",
+        instagram: "instagram.com/debrup_077",
+    },
+    {
+        name: "Arkonil Sarkar",
+        facebook: "https://www.facebook.com/profile.php?id=100080332436969&mibextid=ZbWKwL",
+        linkedin: "https://www.linkedin.com/in/arkonil-sarkar-005a1326a",
+    },
+    {
+        name: "Souvik Modak",
+    },
+
 ];
 
 const tbody = document.getElementById("table-body");

@@ -61,7 +61,7 @@ header h1:hover {
 /* Set a background color and text color for the entire page */
 body {
 
-    background-image: url("img/zeroone.png");
+    background-image: url("img/darkgradient.png");
     color: whitesmoke;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -86,7 +86,7 @@ hr {
 article {
     margin: 20px 0;
     padding: 20px;
-    background-image: url("img/background.png");
+    background-color: transparent;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
@@ -113,12 +113,6 @@ li {
     margin-bottom: 10px;
 }
 
-/* Style links in the article section */
-a {
-    color: #007BFF;
-    text-decoration: none;
-}
-
 /* Style links on hover in the article section */
 a:hover {
     text-decoration: underline;
@@ -130,11 +124,7 @@ h2 {
     margin: 20px 0;
 }
 
-/* Style the links in the contact information section */
-p a {
-    color: #007BFF;
-    text-decoration: none;
-}
+
 
 /* Style links on hover in the contact information section */
 p a:hover {

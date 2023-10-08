@@ -30,6 +30,50 @@ const entries = [
     {
         name: "Ananya Mondal",
     },
+    {
+        name: "Bishal Begani",
+        linkedin: "https://www.linkedin.com/in/bishal-begani-0a333a1ba",
+        github: "https://github.com/NormseCoder",
+    },
+    {
+        name: "Soujatya Chowdhury",
+        instagram: "https://instagram.com/soujatyachowdhury_13?igshid=OGQ5ZDc2ODk2ZA==",
+        linkedin: "https://www.linkedin.com/in/soujatya-chowdhury-94124b288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+        name: "Agnik Manna",
+    },
+    {
+        name: "Monmohan Ghosh",
+    },
+    {
+        name: "Nilesh Kr. Majumder",
+    },
+    {
+        name: "Tilottama Sarkar",
+        instagram: "https://instagram.com/___tilottama___?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D",
+    },
+    {
+        name: "Raj Kumar Mura",
+        facebook: "https://www.facebook.com/profile.php?id=100074110506900",
+    },
+    {
+        name: "Arnab Chatterjee",
+        instagram: "https://instagram.com/the_name_is_arnab?utm_source=qr&igshid=MzNlNGNkZWQ4Mg==",
+    },
+    {
+        name: "Epsita Dutta",
+        instagram: "https://instagram.com/epsita.25?igshid=NjIwNzIyMDk2Mg==",
+    },
+    {
+        name: "Rohit Saha",
+        facebook: "https://www.facebook.com/profile.php?id=100092588995489&mibextid=9R9pXO",
+        linkedin: "https://www.linkedin.com/in/rohit-saha-a22615279?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+        name: "Aarya Sinha",
+    }
+
 
 ];
 

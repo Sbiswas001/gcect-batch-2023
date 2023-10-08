@@ -12,9 +12,17 @@ const entries = [
         pic: "img/sayanbiswas-cse.png",
         text: "Creating the comprehensive \"GCECT Batch of 2023\" website from the ground up was an amazing experience, our team did a great job ensuring seamless functionality, looking forward towards more projects like this.",
         f1: "Computer Science Student",
-        f2: "Programmer",
+        f2: "Coder",
         f3: "Enthusiastic learner",
     },
+    {
+        name: "Soham Banik",
+        pic: "img/sohambanik-cse.png",
+        text: "Creating the comprehensive \"GCECT Batch of 2023\" website from the ground up was an amazing experience, our team did a great job ensuring seamless functionality, looking forward towards more projects like this.",
+        f1: "Computer Science Student",
+        f2: "Baba",
+        f3: "All-rounder",
+    }
 ];
 
 const div = document.getElementById("dev-profiles");

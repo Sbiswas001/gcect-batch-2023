@@ -15,7 +15,8 @@ a {
 .cta1{
     margin: 100px auto;
     width: 90%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(img/discord-blogroll-1655488022938.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1614680376739-414d95ff43df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGlzY29yZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80);
+);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -118,7 +119,6 @@ a {
         position: relative;
     }
 }
-
 .buttons .button{
     padding: 6px 14px;
     border-radius: 22px;

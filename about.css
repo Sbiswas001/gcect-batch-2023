@@ -72,7 +72,7 @@ header h1:hover {
     display: inline-block;
 }
 .buttons .button:hover{
-    background-color: white;
+    background-color: rgb(138, 26, 138);
     color: rgb(71, 71, 207);
 }
 

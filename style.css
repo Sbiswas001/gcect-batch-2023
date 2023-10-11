@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+}
+
 /* Set a background image for the body and adjust the text color */
 body {
   background-image: url(/img/indexback2.png);

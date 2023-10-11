@@ -9,7 +9,7 @@ const entries = [
     },
     {
         name: "Sayan Biswas",
-        pic: "img/sayanbiswas-cse.png",
+        pic: "img/sayanbiswas-cse.jpg",
         text: "Creating the comprehensive \"GCECT Batch of 2023\" website from the ground up was an amazing experience, our team did a great job ensuring seamless functionality, looking forward towards more projects like this.",
         f1: "Computer Science Student",
         f2: "Coder",

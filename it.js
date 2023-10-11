@@ -72,9 +72,14 @@ const entries = [
     },
     {
         name: "Aarya Sinha",
+    },
+    {
+        name: "Sutanu Saha",
+        instagram: "https://instagram.com/sutanu.saha_19_?igshid=MzMyNGUyNmU2YQ==",
+    },
+    {
+        name: "Molay Pal",
     }
-
-
 ];
 
 const tbody = document.getElementById("table-body");

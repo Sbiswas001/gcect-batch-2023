@@ -145,3 +145,7 @@ header h1 {
 .buttons .button a{
     text-decoration: none;
 }
+
+a {
+    color: white;
+}

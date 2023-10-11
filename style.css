@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+}
+
 /* Set a background image for the body and adjust the text color */
 body {
   background-image: url(/img/indexback2.png);
@@ -20,7 +24,7 @@ h1 {
   padding: 1vh;
   font-size: 4vh;
 }
-
+ 
 .dash {
   display: flex;
   flex-wrap: wrap;
@@ -90,4 +94,20 @@ li {
   .dash ul li {
     margin: 0vh 1vh;
   }
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+td {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
 }

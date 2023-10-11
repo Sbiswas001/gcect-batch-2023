@@ -49,6 +49,9 @@ const entries = [
     {
         name: "Rohan Dogra ",
     },
+    {
+        name: "Ankit Das",
+    }
 ];
 
 const tbody = document.getElementById("table-body");

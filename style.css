@@ -1,96 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
+/* Reset some default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+/* Set a background image for the body and adjust the text color */
 body {
-    background-image: url(/img/indexback2.png);
-    color: whitesmoke;
+  background-image: url(/img/indexback2.png);
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    background-image: url(img/indexback1.png);
-    margin: 0;
-    padding: 1vh;
-    
+h1 {
+  background-image: url(img/indexback1.png);
+  margin: 0;
+  padding: 1vh;
+  font-size: 4vh;
 }
 
-.dash{
-    display: inline-flex;
-    display: flex;
-    padding-bottom: 1vh;
-
+.dash {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 1vh;
 }
 
-h1 .dash ul{
-    float: right;
-    list-style-type: none;
-    display: inline-flex;
+/* Apply styles for navigation items in the header */
+.dash ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0;
 }
 
-.dash ul li::after{
-    
-        content: '';
-        width: 0%;
-        height: 2px;
-        background: #f7f710;
-        display: block;
-        margin: auto;
-        transition: 0.5s;
-    }
-
-
-.dash ul li:hover::after{
-        width: 100%;
+.dash ul li {
+  margin: 0vh 2vh;
 }
 
-h1 .dash ul li a{
-    list-style-type: none;
-    margin: 0vh 2vh 0vh 2vh;
-    text-decoration: none;
-    color: white;
-    font-size: 4vh;
-    font-family: 'Poppins', sans-serif;
-
+.dash ul li::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f7f710;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
 }
 
-/* Apply styles to the section element */
+.dash ul li:hover::after {
+  width: 100%;
+}
+
+h1 .dash ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Apply styles for section containers */
 section {
-    padding: 20px;
-    border: 1px solid #ccc;
-    margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  margin: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 5px;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 3vh;
   }
-  
-  /* Apply styles to the heading elements */
-  h3 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+
+  .dash ul li {
+    margin: 0vh 1vh;
   }
-  
-  /* Apply styles to the unordered lists */
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  /* Apply styles to list items */
-  li {
-    padding: 5px;
-  }
-  
-  /* Specific styling for the "Study Materials" section */
-  section h3:contains("Study Materials") {
-    background-color: #e0e0e0;
-  }
-  
-  /* Specific styling for the "Upcoming Events" section */
-  section h3:contains("Upcoming Events") {
-    background-color: #c0c0c0;
-  }
-  
-  /* Specific styling for the "Newsletter" section */
-  section h3:contains("Newsletter") {
-    background-color: #f0f0f0;
-  }
-  
+}

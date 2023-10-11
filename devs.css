@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
-
+    
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Asap&family=Roboto:ital,wght@0,500;0,900;1,500&display=swap");
@@ -69,6 +69,16 @@ header h1 {
     height: auto;
 }
 
+/*
+.image-container img {
+    max-width: 35vh;
+    width: 100%;
+    height: auto;
+    margin-left: 10vh;
+}
+
+*/
+
 .description {
     /* flex: 1; */
     color: white;
@@ -116,3 +126,22 @@ header h1 {
     margin-right: 5vh;
 }
 
+.buttons .button{
+    padding: 6px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(71, 71, 207);
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px 3px;
+    cursor: pointer;
+    display: inline-block;
+}
+.buttons .button:hover{
+    background-color: rgb(138, 26, 138);
+    color: rgb(71, 71, 207);
+}
+
+.buttons .button a{
+    text-decoration: none;
+}

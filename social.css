@@ -1,11 +1,25 @@
 body{
     min-height: 100vh;
     width: 100%;
-    background-image: url(img/social.png);
+    background-image: url("img/social.png");
     background-size: cover;
     background-position: center;
     position: relative;
     background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    body {
+        background-image: url("img/social.png"); /* Use a different image for mobile */
+        background-attachment: scroll; /* Scrollable background on mobile */
+    }
+}
+
+/* Media query for screens between 769px and 1024px (e.g., tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    body {
+        background-image: url("img/social.png"); /* Use a different image for tablets */
+    }
 }
 
 a {
@@ -113,7 +127,7 @@ a {
     body{
         min-height: 100vh;
         width: 100%;
-        background-image: linear-gradient(rgba(208, 215, 251, 0.865),rgba(202, 205, 219, 0.7)), url('img/contact-phone-bg.jpg');
+        
         background-size: cover;
         background-position: center;
         position: relative;
@@ -131,7 +145,7 @@ a {
     display: inline-block;
 }
 .buttons .button:hover{
-    background-color: white;
+    background-color: rgb(138, 26, 138);
     color: rgb(71, 71, 207);
 }
 

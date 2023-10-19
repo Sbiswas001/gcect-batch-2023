@@ -43,13 +43,13 @@ entries.forEach((entry) => {
     const nameCell = document.createElement("h1");
     const paraCell = document.createElement("p");
     const image = document.createElement("img");
-    const text = span2; // Use the span2 element for changing text
+    const text = span2; 
 
     image.src = entry.pic;
     span1.textContent = "I am a ";
     nameCell.textContent = entry.name;
     paraCell.textContent = entry.text;
-    span2.textContent = entry.f1; // Initial text
+    span2.textContent = entry.f1; 
 
     div4.appendChild(span1);
     div4.appendChild(span2);
